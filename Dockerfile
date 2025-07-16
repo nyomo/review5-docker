@@ -40,5 +40,6 @@ RUN apt-get install -y --no-install-recommends \
     texlive-luatex \
     ghostscript 
 
+RUN gem install webrick
 RUN gem install review
 WORKDIR /workdir
