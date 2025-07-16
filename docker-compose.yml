@@ -1,0 +1,10 @@
+services:
+  review:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: review
+    volumes:
+      - ./work:/workdir
+    working_dir: /workdir
+    tty: true
