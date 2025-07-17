@@ -38,6 +38,8 @@ RUN apt-get install -y --no-install-recommends \
     texlive-latex-extra \
     texlive-lang-japanese \
     texlive-luatex \
+    texlive-fonts-recommended \
+    texlive-fonts-extra \
     ghostscript 
 
 RUN gem install webrick
